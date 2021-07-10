@@ -1,0 +1,107 @@
+.text-block {
+	display: inline-block;
+	width: 930px;
+	background-color: yellow;
+	vertical-align: top;
+	margin-left: 39px;
+}
+.text1 {
+	margin-bottom: 30px;
+	font-weight: 900;
+	font-style: italic;
+}
+
+/*header styles*/
+.d-inline-block {
+	display: inline-block;
+}
+
+.logo {
+	margin-right: 100px;
+}
+.nav-li {
+	margin-right: 30px;
+}
+.header-wraper {
+	background-color: lightblue;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+}
+.nav-a {
+	font-size: 22px;
+}
+
+
+body {
+	height: 1800px;
+	padding-top: 82px;
+}
+/*.section1 {
+	margin-top: 82px;
+}*/
+.date {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+/*absolute & relative example*/
+.box-wraper {
+	height: 400px;
+	width: 400px;
+	background-color: yellow;
+	position: relative;
+}
+.child-box {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+}
+.child-box2 {
+	width: 150px;
+	height: 150px;
+	background-color: grey;
+	position: absolute;
+	top: 180px;
+	right: 80px;
+	z-index: 6;
+}
+
+
+/*image example*/
+.text-image {
+	position: absolute;
+	top: 100px;
+	right: 150px;
+	color: red;
+	font-size: 30px;
+}
+.image-wraper {
+	position: relative;
+	width: 1000px;
+	/*display: inline-block;*/
+}
+/*.image {
+	width: 100%;
+}*/
+
+
+/*chat image*/
+.chat-image {
+	height: 80px;
+}
+.chat-icon {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
